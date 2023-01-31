@@ -1,7 +1,44 @@
-   p {
-            color: red;
-            width: 300px;
-        }
- h1 {
-            color:blueviolet;
-        }
+body {
+    background: #D3CCE3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container {
+    background: #396afc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    
+}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border-style: solid;
+}
+
+.acordeon {
+    background-color: #396afc;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-size: 18px;
+}
+
+ .acordeon:hover {
+    background-color: #2948ff;
+}
+
+.panel {
+    display: none;
+    overflow: hidden;
+
+}
